@@ -1,0 +1,23 @@
+{
+  "name": "avalanche-insurance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "axios": "^1.11.0",
+    "form-data": "^4.0.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.26.3"
+  }
+}

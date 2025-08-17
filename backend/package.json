@@ -1,0 +1,25 @@
+{
+  "name": "insurance-claims-ai-service",
+  "version": "1.0.0",
+  "description": "AI Analysis Service for Insurance Claims using Gemini 2.0 Flash",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "express": "^4.18.2",
+    "ipfs-http-client": "^60.0.1",
+    "cors": "^2.8.5",
+    "axios": "^1.5.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
