@@ -1,0 +1,9 @@
+# Environment files (do NOT commit secrets)
+.env
+.env.*
+!.env.example
+
+# App-specific envs
+frontend/.env
+backend/.env
+scripts/.env
